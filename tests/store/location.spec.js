@@ -7,7 +7,7 @@ import {
 
 describe('(Internal Module) Location', () => {
   it('Should export a constant LOCATION_CHANGE.', () => {
-    expect(LOCATION_CHANGE).to.equal('LOCATION_CHANGE')
+    expect(LOCATION_CHANGE).to.equal('LOCATION_CHANGE_ERROR')
   })
 
   describe('(Reducer)', () => {
